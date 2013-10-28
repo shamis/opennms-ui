@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+.main{
+	width: 85%;
+	margin: 10px auto;
+	
+}
+
+h3{
+	display: inline;
+}
+
+button{
+	font-size: 1.2em;
+}
+
+button#newProject {
+	margin: 0px 55px 15px 310px;
+}
+
+button#emailGroup{
+	margin: 0px 55px 15px 75px;
+}
+
+button#newEmail{
+	margin: 0px 54px 15px 143px;
+}
+
+#projectsTable_wrapper{
+}
+
+
+#myModal form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#myModal label, input, select {
+    /* in order to define widths */
+    display: inline-block;
+}
+
+#myModal label {
+    width: 30%;
+    /* positions the label text beside the input */
+    text-align: right;
+}
+
+/* only the submit button is matched by this selector,
+   but to be sure you could use an id or class for that button */
+#myModal input + input {
+    float: right;
+}
